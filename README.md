@@ -4,7 +4,7 @@ This repository contains exercises that I completed during [Udacity's Nano Degre
 
 ## Description
 
-The exercises contained in this repository are very diverse. I provide a detailed description in the ReadMex of each of the subfolders along with my reasoning for the presented solutions.
+The exercises contained in this repository are very diverse. I provide a detailed description in the README.md files of each of the subfolders along with my reasoning for the presented solutions.
 
 ## Acknowledgments
 

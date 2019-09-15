@@ -4,16 +4,9 @@ Exercises and solutions from lecture 2 of the Nanodegree program.
 
 ## Description
 
-TODO
+**STOP** If you are taking the Nanodegree program, try to solve the project by yourself first!
 
+The folder 
+* 2-5_project_1_predicting_bike_sharing_patterns
+contains my solution to the first project with "pure" Python and additionally with PyTorch
 
-## Quick Start
-
-* Activate your Anaconda environment
-
-```
-conda activate nano_dl
-```
-
-TODO getting the dataset
-TODO executing the script

@@ -19,6 +19,6 @@ class NeuralNetwork(nn.Module):
 # Set your hyperparameters here
 ##########################################################
 iterations = 10000   
-learning_rate = 0.02 # Adam: 0.02, SGD: 0.25 
+learning_rate = 0.25 # Adam: 0.02, SGD: 0.25 
 hidden_nodes = 5     
 output_nodes = 1

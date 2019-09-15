@@ -27,8 +27,8 @@ This dataset has the number of riders for each hour of each day from January 1 2
 Below is a plot showing the number of bike riders over the first 10 days or so in the data set. (Some days don't have exactly 24 entries in the data set, so it's not exactly 10 days.) You can see the hourly rentals here. This data is pretty complicated! The weekends have lower over all ridership and there are spikes when people are biking to and from work during the week. Looking at the data above, we also have information about temperature, humidity, and windspeed, all of these likely affecting the number of riders. You'll be trying to capture all this with your model.
 '''
 
-#rides[:24*10].plot(x='dteday', y='cnt', title='Data of first 10 days in dataset')
-#plt.show()
+rides[:24*10].plot(x='dteday', y='cnt', title='Data of first 10 days in dataset')
+plt.show()
 
 ############ DUMMY VARIABLES #################
 
@@ -114,17 +114,21 @@ optimizer = optim.SGD(network.parameters(), lr = learning_rate)
 #optimizer = optim.Adam(network.parameters(), lr = learning_rate)
 
 losses = {'train':[], 'validation':[]}
+last_lr = learning_rate
 for ii in range(iterations):      
 
     # varying learning rate for SGD
     if ii == 1500:
         if isinstance(optimizer, optim.SGD):
-            print("\n  reducing learning rate from", learning_rate, "to 0.1")
-            optimizer = optim.SGD(network.parameters(), lr = 0.1)
+            learning_rate = 0.1
+            print("\n  reducing learning rate from", last_lr, "to", learning_rate)
+            optimizer = optim.SGD(network.parameters(), lr = learning_rate)
+            last_lr = learning_rate
     if ii == 5000:
         if isinstance(optimizer, optim.SGD):
-            print("\n  reducing learning rate from", learning_rate, "to 0.05")
-            optimizer = optim.SGD(network.parameters(), lr = 0.05)
+            learning_rate = 0.05
+            print("\n  reducing learning rate from", last_lr, "to", learning_rate)
+            optimizer = optim.SGD(network.parameters(), lr = learning_rate)
 
     # Go through a random batch of 128 records from the training data set
     batch_idx = np.random.choice(train_features.index, size=128)

@@ -64,7 +64,7 @@ After training, a window with a plot of the training loss and validation loss wi
 
 ![alt text](img/train_val_plot_orig.png "Plot of training and validation loss")
 
-After closing this window you also see a plot of the original data and the pridiction made by the trained model:
+After closing this window you also see a plot of the original data and the prediction made by the trained model:
 
 ![alt text](img/compare_testdata_orig.png "Predicted data vs. real data")
 
@@ -90,8 +90,8 @@ After training, a window with a plot of the training loss and validation loss wi
 
 ![alt text](img/train_val_plot_pytorch.png "Plot of training and validation loss")
 
-After closing this window you also see a plot of the original data and the pridiction made by the trained model:
+After closing this window you also see a plot of the original data and the prediction made by the trained model:
 
-![alt text](img/compara_testdata_pytorch.png "Predicted data vs. real data")
+![alt text](img/compare_testdata_pytorch.png "Predicted data vs. real data")
 
 

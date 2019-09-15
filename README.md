@@ -19,7 +19,7 @@ Since I was learning pytorch during that course, many of my solutions are embedd
 ## Installation
 
 * Download and install Anaconda from the [Anaconda website](https://www.anaconda.com/distribution/).
-* Create and activate an environment (note adjust python version if needed):
+* Create and activate an environment (adjust python version if needed):
 
 ```
 conda create -n nano_dl python=3.7
@@ -35,7 +35,8 @@ sudo apt install nvidia-384
 conda activate nano_dl
 conda install cudatoolkit=9.0 -c pytorch
 ```
-* Test if the GPU is correctly found by PyTorch
+
+#### Test if the GPU is correctly found by PyTorch
 
 ```
 conda activate nano_dl

@@ -9,7 +9,7 @@ The exercises contained in this repository are very diverse. I provide a detaile
 The subfolders are prefixed with the lecture number and contain the following material:
 
 * 02_neural_networks
-    * lecture 2.5: project 1: predicing bike sharing patterns
+    * lecture 2.5: project 1: predicting bike sharing patterns
     * lecture 2.6: sentiment analysis
 
 ## Acknowledgments

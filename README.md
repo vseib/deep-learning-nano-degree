@@ -32,8 +32,24 @@ conda install pytorch torchvision -c pytorch
 
 ```
 sudo apt install nvidia-384
+conda activate nano_dl
 conda install cudatoolkit=9.0 -c pytorch
 ```
+* Test if the GPU is correctly found by PyTorch
+
+```
+conda activate nano_dl
+python
+```
+
+* Inside the python console type the following
+
+```
+import torch
+torch.cuda.is_available()
+```
+
+* If this prints out 'True' than your GPU was correctly found by PyTorch
 
 ## License
 

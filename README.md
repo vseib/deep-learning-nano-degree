@@ -18,10 +18,22 @@ Since I was learning pytorch during that course, many of my solutions are embedd
 
 ## Installation
 
-TODO
-* install conda
-* create and activate environment
-* with cuda: conda install pytorch torchvision cudatoolkit=9.0 -c pytorch
+* Download and install Anaconda from the [Anaconda website](https://www.anaconda.com/distribution/).
+* Create and activate an environment (note adjust python version if needed):
+
+```
+conda create -n nano_dl python=3.7
+conda activate nano_dl
+conda install numpy pandas matplotlib scikit-learn
+conda install pytorch torchvision -c pytorch
+```
+
+* To use a GPU additionally perform the following steps (note that you might need to activate the GPU drivers in you system settings)
+
+```
+sudo apt install nvidia-384
+conda install cudatoolkit=9.0 -c pytorch
+```
 
 ## License
 

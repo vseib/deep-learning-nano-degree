@@ -49,7 +49,7 @@ conda activate nano_dl
 python
 ```
 
-* Inside the python console type the following
+* Inside the Python console type the following
 
 ```
 import torch

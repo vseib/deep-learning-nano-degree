@@ -4,7 +4,13 @@ This repository contains exercises that I completed during [Udacity's Nano Degre
 
 ## Description
 
-The exercises contained in this repository are very diverse. I provide a detailed description in the README.md files of each of the subfolders along with my reasoning for the presented solutions.
+The exercises contained in this repository are very diverse. I provide a detailed description in the README.md files of each of the subfolders along with my reasoning for the presented solutions. All exercises were converted to Python-files. The original Jupyter notebooks can be found in Udacity's repository (see Acknowledgments).
+
+The subfolders are prefixed with the lecture number and contain the following material:
+
+* 02_neural_networks
+    * lecture 2.5: project 1: predicing bike sharing patterns
+    * lecture 2.6: sentiment analysis
 
 ## Acknowledgments
 

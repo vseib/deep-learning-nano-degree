@@ -20,7 +20,7 @@ The original repository of this Nano Degree program can be found here
     https://github.com/udacity/deep-learning-v2-pytorch.git
 ```
 
-Since I was learning pytorch during that course, many of my solutions are embedded into the original task descriptions of Udacity. Further, my code is very similar in style and structure to what I learned during that program.
+Since I was learning PyTorch during that course, many of my solutions are embedded into the original task descriptions of Udacity. Further, my code is very similar in style and structure to what I learned during that program.
 
 ## Installation
 
@@ -34,7 +34,7 @@ conda install numpy pandas matplotlib scikit-learn
 conda install pytorch torchvision -c pytorch
 ```
 
-* To use a GPU additionally perform the following steps (note that you might need to activate the GPU drivers in you system settings)
+* To use a GPU additionally perform the following steps (note that you might need to activate the GPU drivers in your system settings)
 
 ```
 sudo apt install nvidia-384
@@ -56,7 +56,7 @@ import torch
 torch.cuda.is_available()
 ```
 
-* If this prints out 'True' than your GPU was correctly found by PyTorch
+* If this prints out 'True' then your GPU was correctly found by PyTorch
 
 ## License
 

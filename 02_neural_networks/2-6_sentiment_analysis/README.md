@@ -7,8 +7,7 @@
 Inside this folder execute the following commands:
 
 ```
-mkdir data
-cd data
+mkdir data && cd data
 wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/sentiment-analysis-network/labels.txt
 wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/sentiment-analysis-network/reviews.txt
 ```

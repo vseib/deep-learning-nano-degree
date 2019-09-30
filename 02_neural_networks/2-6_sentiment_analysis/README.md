@@ -111,7 +111,7 @@ Now the network is able to process around 2700 reviews per second as opposed to 
 
 In this last version the instructor teaches us how to reduce noise in the data. Our input vector is now shorter as we only consider words that appear at least a certain amount of times in the data (min\_count parameter). Further, we only use words whose log positive-negative ratio is at least a certain amount away from 0 (polarity\_cutoff parameter).
 
-With a min\_count of 20 and a polarity\_cutoff of 0.05, the output lookes something like this:
+With a min\_count of 100 and a polarity\_cutoff of 0.05, the output lookes something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -130,7 +130,7 @@ Test the trained network:
 Progress:99.9% Speed(reviews/sec):5550. #Correct:847 #Tested:1000 Testing Accuracy:84.7%
 ```
 
-With a min\_count of 20 and a polarity\_cutoff of 0.8, the output lookes something like this:
+With a min\_count of 100 and a polarity\_cutoff of 0.8, the output lookes something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%

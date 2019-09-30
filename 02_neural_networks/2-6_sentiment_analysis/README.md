@@ -2,6 +2,17 @@
 
 ## Quick Start
 
+### Download the sentiment dataset
+
+Inside this folder execute the following commands:
+
+```
+mkdir data
+cd data
+wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/sentiment-analysis-network/labels.txt
+wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/sentiment-analysis-network/reviews.txt
+```
+
 ### Execute the provided script
 
 Originally, the project had to be solved without PyTorch. Execute the original solution with this command:

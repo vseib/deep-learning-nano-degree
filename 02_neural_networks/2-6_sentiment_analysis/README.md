@@ -49,7 +49,7 @@ If you run the script with the full solution you will first see some output cont
 
 The input for the first version is is a vector of size 74074. 74074 is the number of unique words in the dataset. Each element of the vector is a count of how many times the corresponding word from the vocabulary appeared in the review.
 
-The output lookes something like this:
+The output looks something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -71,7 +71,7 @@ As you can see, the network is not really learning, since the accuracy is around
 
 In the second version the instructor teaches us how to better preprocess the data. The input is still a vector of size 74074, but this time each element is 0 or 1 and indicates whether or not a word from the vocabulary appeared in the review.
 
-The output lookes something like this:
+The output looks something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -96,7 +96,7 @@ Now we see that the network is learning and achieves a testing accuracy of 86%.
 
 In this version the instructor focuses on speeding up the training process by eliminating unnecessary multiplications with 0 and 1.
 
-The output lookes something like this:
+The output looks something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -121,7 +121,7 @@ Now the network is able to process around 2700 reviews per second as opposed to 
 
 In this last version the instructor teaches us how to reduce noise in the data. Our input vector is now shorter as we only consider words that appear at least a certain amount of times in the data (min\_count parameter). Further, we only use words whose log positive-negative ratio is at least a certain amount away from 0 (polarity\_cutoff parameter).
 
-With a min\_count of 100 and a polarity\_cutoff of 0.05, the output lookes something like this:
+With a min\_count of 100 and a polarity\_cutoff of 0.05, the output looks something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -140,7 +140,7 @@ Test the trained network:
 Progress:99.9% Speed(reviews/sec):5550. #Correct:847 #Tested:1000 Testing Accuracy:84.7%
 ```
 
-With a min\_count of 100 and a polarity\_cutoff of 0.8, the output lookes something like this:
+With a min\_count of 100 and a polarity\_cutoff of 0.8, the output looks something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -163,7 +163,7 @@ In both cases we sacrifice some accuracy, but gain (a lot) of training speed. Ac
 
 ### Comparison of the original implementation and PyTorch
 
-With a min\_count of 100 and a polarity\_cutoff of 0.2, the **original** output lookes something like this:
+With a min\_count of 100 and a polarity\_cutoff of 0.2, the **original** output looks something like this:
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
@@ -182,7 +182,7 @@ Test the trained network:
 Progress:99.9% Speed(reviews/sec):5705. #Correct:856 #Tested:1000 Testing Accuracy:85.6%
 ```
 
-With a min\_count of 100 and a polarity\_cutoff of 0.2, the **PyTorch** output lookes something like this (with a learning\_rate of 0.0001):
+With a min\_count of 100 and a polarity\_cutoff of 0.2, the **PyTorch** output looks something like this (with a learning\_rate of 0.0001):
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:0 #Trained:1 Training Accuracy:0.0%

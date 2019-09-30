@@ -30,6 +30,14 @@ python network_v4.py
 
 In the latter case you can change the two parameters at the beginning of the file.
 
+I also provide a PyTorch implementation of the final network:
+
+```
+cd 2-6_pytorch
+python network_v4.py
+```
+
+Here you can change the the two previous parameters and the learning rate at the beginning of the file.
 
 ## Description
 
@@ -153,4 +161,45 @@ Progress:99.9% Speed(reviews/sec):13229 #Correct:832 #Tested:1000 Testing Accura
 
 In both cases we sacrifice some accuracy, but gain (a lot) of training speed. According to the instructor this is what we want if we have a larger dataset: train faster. On the other hand, if the dataset was larger, the accuracy would also improve.
 
+### Comparison of the original implementation and PyTorch
+
+With a min\_count of 100 and a polarity\_cutoff of 0.2, the **original** output lookes something like this:
+
+```
+Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
+Progress:10.4% Speed(reviews/sec):3873. #Correct:1957 #Trained:2501 Training Accuracy:78.2%
+Progress:20.8% Speed(reviews/sec):3800. #Correct:4011 #Trained:5001 Training Accuracy:80.2%
+Progress:31.2% Speed(reviews/sec):3786. #Correct:6124 #Trained:7501 Training Accuracy:81.6%
+Progress:41.6% Speed(reviews/sec):3865. #Correct:8265 #Trained:10001 Training Accuracy:82.6%
+Progress:52.0% Speed(reviews/sec):3842. #Correct:10419 #Trained:12501 Training Accuracy:83.3%
+Progress:62.5% Speed(reviews/sec):3827. #Correct:12562 #Trained:15001 Training Accuracy:83.7%
+Progress:72.9% Speed(reviews/sec):3858. #Correct:14687 #Trained:17501 Training Accuracy:83.9%
+Progress:83.3% Speed(reviews/sec):3835. #Correct:16862 #Trained:20001 Training Accuracy:84.3%
+Progress:93.7% Speed(reviews/sec):3817. #Correct:19048 #Trained:22501 Training Accuracy:84.6%
+Progress:99.9% Speed(reviews/sec):3809. #Correct:20363 #Trained:24000 Training Accuracy:84.8%
+
+Test the trained network:
+Progress:99.9% Speed(reviews/sec):5705. #Correct:856 #Tested:1000 Testing Accuracy:85.6%
+```
+
+With a min\_count of 100 and a polarity\_cutoff of 0.2, the **PyTorch** output lookes something like this (with a learning\_rate of 0.0001):
+
+```
+Progress:0.0% Speed(reviews/sec):0.0 #Correct:0 #Trained:1 Training Accuracy:0.0%
+Progress:10.4% Speed(reviews/sec):960.7 #Correct:1925 #Trained:2501 Training Accuracy:76.9%
+Progress:20.8% Speed(reviews/sec):967.6 #Correct:4029 #Trained:5001 Training Accuracy:80.5%
+Progress:31.2% Speed(reviews/sec):976.6 #Correct:6190 #Trained:7501 Training Accuracy:82.5%
+Progress:41.6% Speed(reviews/sec):981.4 #Correct:8358 #Trained:10001 Training Accuracy:83.5%
+Progress:52.0% Speed(reviews/sec):975.6 #Correct:10538 #Trained:12501 Training Accuracy:84.2%
+Progress:62.5% Speed(reviews/sec):1027. #Correct:12713 #Trained:15001 Training Accuracy:84.7%
+Progress:72.9% Speed(reviews/sec):1072. #Correct:14888 #Trained:17501 Training Accuracy:85.0%
+Progress:83.3% Speed(reviews/sec):1106. #Correct:17106 #Trained:20001 Training Accuracy:85.5%
+Progress:93.7% Speed(reviews/sec):1136. #Correct:19320 #Trained:22501 Training Accuracy:85.8%
+Progress:99.9% Speed(reviews/sec):1148. #Correct:20651 #Trained:24000 Training Accuracy:86.0%
+
+Test the trained network:
+Progress:99.9% Speed(reviews/sec):4806. #Correct:865 #Tested:1000 Testing Accuracy:86.5%
+```
+
+Notice the slightly better performance of the PyTorch version. However, I did not try to tweak the learning rate of the original implementation, so it might also perform better. Unfortunately, the PyTorch version is much slower. This is due to the manual optimization of computation steps in the original implementation. I did not try to optimize the PyTorch version at all.
 

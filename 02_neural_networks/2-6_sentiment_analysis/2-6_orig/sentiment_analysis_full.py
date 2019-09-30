@@ -1381,7 +1381,7 @@ That should have trained much better than the earlier attempts. Run the followin
 
 print('\n\n')
 print("Training 4th version (the greater the polarity_cutoff, the more we sacrifice accuracy for speed)")
-print("\tInput is a binary vector < 74074, only containing words that have a certain min count (20)")
+print("\tInput is a binary vector < 74074, only containing words that have a certain min count (100)")
 print("\tand their log positive-negative ratio is at least a certain amount away from 0 (polarity_cutoff, here: 0.05)\n")
 mlp = SentimentNetwork(reviews[:-1000],labels[:-1000],min_count=20,polarity_cutoff=0.05,learning_rate=0.01)
 mlp.train(reviews[:-1000],labels[:-1000])
@@ -1400,7 +1400,7 @@ Run the following cell to train your network with a much larger polarity cutoff.
 
 print('\n\n')
 print("Training 4th version (the greater the polarity_cutoff, the more we sacrifice accuracy for speed)")
-print("\tInput is a binary vector < 74074, only containing words that have a certain min count (20)")
+print("\tInput is a binary vector < 74074, only containing words that have a certain min count (100)")
 print("\tand their log positive-negative ratio is at least a certain amount away from 0 (polarity_cutoff, here: 0.8)\n")
 mlp = SentimentNetwork(reviews[:-1000],labels[:-1000],min_count=20,polarity_cutoff=0.8,learning_rate=0.01)
 mlp.train(reviews[:-1000],labels[:-1000])

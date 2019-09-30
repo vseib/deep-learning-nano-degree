@@ -12,22 +12,24 @@ wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/s
 wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/sentiment-analysis-network/reviews.txt
 ```
 
-### Execute the provided script
+### Execute one of the provided scripts
 
-Originally, the project had to be solved without PyTorch. Execute the original solution with this command:
+Originally, the project had to be solved without PyTorch. Execute the original solution with this command that will display the iterative development of the network:
 
 ```
 cd 2-6_orig
 python sentiment_analysis_full.py
 ```
 
-### TODO
-I provide a second version that is almost the same, but uses PyTorch. You can run this second version with 
+Alternatively, execute the final network with:
 
 ```
-cd 2-6_pytorch
-python sentiment_analysis.py
+cd 2-6_orig
+python network_v4.py
 ```
+
+In the latter case you can change the two parameters at the beginning of the file.
+
 
 ## Description
 

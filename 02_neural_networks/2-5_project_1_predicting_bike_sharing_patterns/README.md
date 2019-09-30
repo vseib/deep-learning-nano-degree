@@ -1,5 +1,7 @@
 # 2-5_project_1_predicting_bike_sharing_patterns
 
+## STOP! If you are taking the Nano Degree program, try to solve the project by yourself first!
+
 ## Quick Start
 
 ### Download the bike-sharing dataset

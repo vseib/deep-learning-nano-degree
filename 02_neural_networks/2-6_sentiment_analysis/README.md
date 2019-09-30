@@ -21,7 +21,7 @@ cd 2-6_orig
 python sentiment_analysis_full.py
 ```
 
-Alternatively, execute the final network with (see Version 4 in the description below):
+Alternatively, execute the final network (see Version 4 in the description below):
 
 ```
 cd 2-6_orig
@@ -30,7 +30,7 @@ python network_v4.py
 
 In the latter case you can change the two parameters at the beginning of the file.
 
-I also provide a PyTorch implementation of the final network:
+I also provide a **PyTorch** implementation of the final network:
 
 ```
 cd 2-6_pytorch

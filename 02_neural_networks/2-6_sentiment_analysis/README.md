@@ -115,19 +115,19 @@ With a min\_count of 20 and a polarity\_cutoff of 0.05, the output lookes someth
 
 ```
 Progress:0.0% Speed(reviews/sec):0.0 #Correct:1 #Trained:1 Training Accuracy:100.%
-Progress:10.4% Speed(reviews/sec):2895. #Correct:1949 #Trained:2501 Training Accuracy:77.9%
-Progress:20.8% Speed(reviews/sec):2793. #Correct:3994 #Trained:5001 Training Accuracy:79.8%
-Progress:31.2% Speed(reviews/sec):2790. #Correct:6121 #Trained:7501 Training Accuracy:81.6%
-Progress:41.6% Speed(reviews/sec):2791. #Correct:8278 #Trained:10001 Training Accuracy:82.7%
-Progress:52.0% Speed(reviews/sec):2780. #Correct:10439 #Trained:12501 Training Accuracy:83.5%
-Progress:62.5% Speed(reviews/sec):2769. #Correct:12580 #Trained:15001 Training Accuracy:83.8%
-Progress:72.9% Speed(reviews/sec):2763. #Correct:14694 #Trained:17501 Training Accuracy:83.9%
-Progress:83.3% Speed(reviews/sec):2767. #Correct:16868 #Trained:20001 Training Accuracy:84.3%
-Progress:93.7% Speed(reviews/sec):2757. #Correct:19055 #Trained:22501 Training Accuracy:84.6%
-Progress:99.9% Speed(reviews/sec):2755. #Correct:20375 #Trained:24000 Training Accuracy:84.8%
+Progress:10.4% Speed(reviews/sec):3690. #Correct:1941 #Trained:2501 Training Accuracy:77.6%
+Progress:20.8% Speed(reviews/sec):3700. #Correct:3987 #Trained:5001 Training Accuracy:79.7%
+Progress:31.2% Speed(reviews/sec):3700. #Correct:6105 #Trained:7501 Training Accuracy:81.3%
+Progress:41.6% Speed(reviews/sec):3685. #Correct:8251 #Trained:10001 Training Accuracy:82.5%
+Progress:52.0% Speed(reviews/sec):3688. #Correct:10403 #Trained:12501 Training Accuracy:83.2%
+Progress:62.5% Speed(reviews/sec):3711. #Correct:12520 #Trained:15001 Training Accuracy:83.4%
+Progress:72.9% Speed(reviews/sec):3714. #Correct:14661 #Trained:17501 Training Accuracy:83.7%
+Progress:83.3% Speed(reviews/sec):3720. #Correct:16841 #Trained:20001 Training Accuracy:84.2%
+Progress:93.7% Speed(reviews/sec):3741. #Correct:19023 #Trained:22501 Training Accuracy:84.5%
+Progress:99.9% Speed(reviews/sec):3747. #Correct:20346 #Trained:24000 Training Accuracy:84.7%
 
 Test the trained network:
-Progress:99.9% Speed(reviews/sec):4463. #Correct:860 #Tested:1000 Testing Accuracy:86.0%
+Progress:99.9% Speed(reviews/sec):5550. #Correct:847 #Tested:1000 Testing Accuracy:84.7%
 ```
 
 With a min\_count of 20 and a polarity\_cutoff of 0.8, the output lookes something like this:

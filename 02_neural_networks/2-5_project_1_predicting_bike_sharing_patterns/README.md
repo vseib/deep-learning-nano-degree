@@ -9,8 +9,7 @@
 Inside this folder execute the following commands:
 
 ```
-mkdir Bike-Sharing-Dataset
-cd Bike-Sharing-Dataset
+mkdir Bike-Sharing-Dataset && cd Bike-Sharing-Dataset
 wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/project-bikesharing/Bike-Sharing-Dataset/Readme.txt
 wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/project-bikesharing/Bike-Sharing-Dataset/day.csv
 wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/project-bikesharing/Bike-Sharing-Dataset/hour.csv

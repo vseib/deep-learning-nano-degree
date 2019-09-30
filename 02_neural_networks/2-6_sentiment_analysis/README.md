@@ -14,14 +14,14 @@ wget https://raw.githubusercontent.com/udacity/deep-learning-v2-pytorch/master/s
 
 ### Execute one of the provided scripts
 
-Originally, the project had to be solved without PyTorch. Execute the original solution with this command that will display the iterative development of the network:
+Originally, the project had to be solved without PyTorch. Execute the original solution with this command that will display the iterative development of the network (see description below):
 
 ```
 cd 2-6_orig
 python sentiment_analysis_full.py
 ```
 
-Alternatively, execute the final network with:
+Alternatively, execute the final network with (see Version 4 in the description below):
 
 ```
 cd 2-6_orig

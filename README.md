@@ -33,8 +33,16 @@ conda activate nano_dl
 conda install numpy pandas matplotlib scikit-learn
 conda install pytorch torchvision -c pytorch
 ```
+This will already install the cudatoolkit 10 package for PyTorch. Note however that you still need to install Cuda to be able to use the GPU in PyTorch.
 
-* To use a GPU additionally perform the following steps (note that you might need to activate the GPU drivers in your system settings)
+Since I do not have a GPU in my computer, the following instructions might be incomplete or not entirely correct. Consider them only as a hint.
+In Ubuntu you might need additional packages after installing Cuda.
+
+```
+sudo apt install nvidia-390
+```
+Further, you need to activate the graphics drivers in the system settings.
+Depending on the Cuda version available for your system, you might need to downgrade the installed PyTorch cudatoolkit, e.g. like this:
 
 ```
 sudo apt install nvidia-384

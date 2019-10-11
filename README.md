@@ -45,7 +45,6 @@ Further, you need to activate the graphics drivers in the system settings.
 Depending on the Cuda version available for your system, you might need to downgrade the installed PyTorch cudatoolkit, e.g. like this:
 
 ```
-sudo apt install nvidia-384
 conda activate nano_dl
 conda install cudatoolkit=9.0 -c pytorch
 ```

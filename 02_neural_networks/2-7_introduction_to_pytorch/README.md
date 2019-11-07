@@ -173,6 +173,7 @@ Second, there is a small improvement in all cases and now Adam is clearly better
 
 Here is the plot for the best result (Adam with lr=0.0005):
 
+![alt text](2-7_new_mlp/mnist_plots_Adam_0.0005.png "MNIST plot")
 
 ### New MLP for Fashion MNIST
 
@@ -213,4 +214,5 @@ Second, there is a small improvement in most cases, especially for Adam, that is
 
 Here is the plot for the best result (Adam with lr=0.0001):
 
+![alt text](2-7_new_mlp/fmnist_plots_Adam_0.0001.png "Fashion MNIST plot")
 

@@ -216,3 +216,5 @@ Here is the plot for the best result (Adam with lr=0.0001):
 
 ![alt text](2-7_new_mlp/fmnist_plots_Adam_0.0001.png "Fashion MNIST plot")
 
+The plot looks as if the network is not done training. With a longer training better results might be possible.
+

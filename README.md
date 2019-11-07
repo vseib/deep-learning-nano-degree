@@ -8,13 +8,14 @@ The exercises contained in this repository are very diverse. I provide a detaile
 
 The subfolders are prefixed with the lecture number and contain the following material:
 
-* 02_neural_networks
-    * lecture 2.5: project 1: predicting bike sharing patterns
-        * additional material: PyTorch implementation
-    * lecture 2.6: sentiment analysis
-        * additional material: PyTorch implementation
-    * lecture 2.7: introduction to PyTorch
-        * additional material: 2 different MLPs for MNIST and FMNIST, evaluation of hyperparameters
+### 02_neural_networks
+
+lecture 2.5: project 1: predicting bike sharing patterns
+    * additional material: PyTorch implementation
+lecture 2.6: sentiment analysis
+    * additional material: PyTorch implementation
+lecture 2.7: introduction to PyTorch
+    * additional material: 2 different MLPs for MNIST and FMNIST, evaluation of hyperparameters
 
 
 ## Acknowledgments

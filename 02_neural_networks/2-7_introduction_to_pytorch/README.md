@@ -67,16 +67,15 @@ The evaluation script compares the SGD and the Adam optimizer with different lea
 
 The following are the 3 best results with SGD:
 
------------------------------------------
 Optimizer: SGD learning rate: 0.1
 Epoch: 20/20	 Train Loss: 0.0145	 Test Loss: 0.0747	 Accuracy: 0.9803
------------------------------------------
+
 Optimizer: SGD learning rate: 0.05
 Epoch: 20/20	 Train Loss: 0.0234	 Test Loss: 0.0796	 Accuracy: 0.9771
------------------------------------------
+
 Optimizer: SGD learning rate: 0.01
 Epoch: 20/20	 Train Loss: 0.0967	 Test Loss: 0.1084	 Accuracy: 0.9668
------------------------------------------
+
 
 The other learning rates were too low to achieve good results after 20 epochs.
 

@@ -14,10 +14,10 @@ transform = transforms.Compose([transforms.ToTensor(),
                               ])
 
 # Download and load the training data
-trainset = datasets.FashionMNIST('F_MNIST_data/', download=True, train=True, transform=transform)
+trainset = datasets.FashionMNIST('../F_MNIST_data/', download=True, train=True, transform=transform)
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
 
-testset = datasets.FashionMNIST('F_MNIST_data/', download=True, train=False, transform=transform)
+testset = datasets.FashionMNIST('../F_MNIST_data/', download=True, train=False, transform=transform)
 testloader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=True)
 
 # Build a feed-forward network

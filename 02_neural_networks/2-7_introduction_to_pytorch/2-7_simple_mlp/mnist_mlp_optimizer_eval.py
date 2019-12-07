@@ -14,10 +14,10 @@ transform = transforms.Compose([transforms.ToTensor(),
                               ])
 
 # Download and load the training data
-trainset = datasets.MNIST('MNIST_data/', download=True, train=True, transform=transform)
+trainset = datasets.MNIST('../MNIST_data/', download=True, train=True, transform=transform)
 trainloader = torch.utils.data.DataLoader(trainset, batch_size=64, shuffle=True)
 
-testset = datasets.MNIST('MNIST_data/', download=True, train=False, transform=transform)
+testset = datasets.MNIST('../MNIST_data/', download=True, train=False, transform=transform)
 testloader = torch.utils.data.DataLoader(testset, batch_size=64, shuffle=False)
 
 # check for cuda

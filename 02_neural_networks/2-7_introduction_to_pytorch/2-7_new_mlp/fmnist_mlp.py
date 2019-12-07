@@ -28,7 +28,7 @@ class Classifier(nn.Module):
         self.input_size = input_size
         self.filters = filters
         self.output_size = output_size
-        self.dropout = dropout
+        self.dropprob = dropout
 
         self.fc1 = nn.Linear(input_size, filters*4)
         self.fc2 = nn.Linear(filters*4, filters*2)
@@ -126,7 +126,7 @@ model_save_name = 'fmnist_model.pth'
 checkpoint = {'input_size': model.input_size,
               'filters': model.filters,
               'output_size': model.output_size,
-              'dropout': model.dropout,
+              'dropout': model.dropprob,
               'state_dict': model.state_dict()
 }
 torch.save(checkpoint, model_save_name)

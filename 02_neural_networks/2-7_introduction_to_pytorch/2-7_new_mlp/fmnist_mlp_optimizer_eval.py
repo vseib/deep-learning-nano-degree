@@ -28,7 +28,7 @@ class Classifier(nn.Module):
         self.input_size = input_size
         self.filters = filters
         self.output_size = output_size
-        self.dropout = dropout
+        self.dropprob = dropout
 
         self.fc1 = nn.Linear(input_size, filters*4)
         self.fc2 = nn.Linear(filters*4, filters*2)

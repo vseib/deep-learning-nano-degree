@@ -125,7 +125,7 @@ model_save_name = 'fmnist_model.pth'
 
 checkpoint = {'input_size': model.input_size,
               'filters': model.filters,
-              'output_size': model.outpout_size,
+              'output_size': model.output_size,
               'dropout': model.dropout,
               'state_dict': model.state_dict()
 }

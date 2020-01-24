@@ -16,6 +16,7 @@ python introduction_training.py
 ```
 
 The next folders contains a simple MLP with 3 layers and a more coplex MLP with 4 layers and dropout. The script will
+
     * train for 10 / 20 epochs, plot the losses, save the model
     * load the model, perform 1 inference, display results
 

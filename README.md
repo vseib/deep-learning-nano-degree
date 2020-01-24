@@ -10,7 +10,7 @@ The subfolders are prefixed with the lecture number and contain the following ma
 
 ### 02_neural_networks
 
-|Lecture|Content|Extras|
+|Lecture|Content|Additional Material|
 |---|---|---|
 |2.5   |Project 1: Predicting Bike Sharing Patterns   |PyTorch Implementation  |
 |2.6   |Sentiment Analysis                            |PyTorch Implementation  |

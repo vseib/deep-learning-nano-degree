@@ -14,7 +14,8 @@ The subfolders are prefixed with the lecture number and contain the following ma
 |---|---|---|
 |2.5   |Project 1: Predicting Bike Sharing Patterns   |PyTorch Implementation  |
 |2.6   |Sentiment Analysis                            |PyTorch Implementation  |
-|2.7   |introduction to PyTorch                       |2 Different MLPs for MNIST and FMNIST, Evaluation of Hyperparameters   |
+|2.7   |Introduction to PyTorch                       |2 Different MLPs for MNIST and FMNIST, Evaluation of Hyperparameters   |
+|3.1   |Introduction to CNNs                          |3 Different Models, Data Augmentation, Evaluation of Hyperparameters   |
 
 
 ## Acknowledgments

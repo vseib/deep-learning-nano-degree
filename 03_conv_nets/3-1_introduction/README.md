@@ -18,7 +18,7 @@ Default is with augmentation.
 Here you can see the different Optimizers used and the results obtained.
 
 |Model|Optimizer|Learning Rate|Additional Info|Epochs Trained|Test Accuracy|
-|---|---|---|
+|---|---|---|---|---|---|
 |Net1|Adam| 0.001 | dropout = 0.5 | 30 (?) | 70 %|
 |Net1|SGD | 0.01  | dropout = 0.5 | 30 (?) | 72 %|
 |Net1|SGD | 0.025 | dropout = 0.5 | 30 (?) | 71 %|
@@ -27,14 +27,14 @@ Here you can see the different Optimizers used and the results obtained.
 |Net1|SGD | 0.025 | dropout = 0.25 | 30 (?) | 71 %|
 
 |Model|Optimizer|Learning Rate|Additional Info|Epochs Trained|Test Accuracy|
-|---|---|---|
+|---|---|---|---|---|---|
 |Net2|Adam| 0.001 | dropout = 0.5 | 30 (?) | 68 %|
 |Net2|SGD | 0.01  | dropout = 0.5 | 30 (?) | 68 %|
 |Net2|Adam| 0.001 | dropout = 0.25 | 30 (?) | 67 %|
 |Net2|SGD | 0.01  | dropout = 0.25 | 30 (?) | 68 %|
 
 |Model|Optimizer|Learning Rate|Additional Info|Epochs Trained|Test Accuracy|
-|---|---|---|
+|---|---|---|---|---|---|
 |Net3|Adam| 0.001 | dropout = 0.5 | 30 (?) | 70 %|
 |Net3|SGD | 0.01  | dropout = 0.5 | 30 (?) | 74 %|
 |Net3|Adam| 0.001 | dropout = 0.25 | 30 (?) | 71 %|
